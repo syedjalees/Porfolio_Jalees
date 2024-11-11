@@ -7,7 +7,7 @@ const Response = () => {
       <h1 className="text-black font-semibold">Thanks!</h1>
       <br />
       <p className="text-black">
-        Thanks for reaching out. I'll get back to you soon.
+        Thanks for reaching out. I`ll get back to you soon.
       </p>
       <br />
       <Link href={"/"} className="text-red-600 text-lg">
