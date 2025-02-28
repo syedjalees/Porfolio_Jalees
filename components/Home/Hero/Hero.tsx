@@ -22,7 +22,7 @@ const Hero = () => {
                       {/* Button */}
                       <div className="mt-8">
                           <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-full mt-8 bg-black border-2 border-[#D04DAD] hover:bg-[#D04DAD] flex items-center space-x-2">
-                              <span><Link href="https://official-cv.vercel.app/" target="blank">Download CV</Link></span>
+                              <span><Link href="https://www.goodcv.com/cv/4e3abe704b5624c91eba65e707b32134" target="blank">Download CV</Link></span>
                               <FaDownload />
                           </button>
                       </div> 

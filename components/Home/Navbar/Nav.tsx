@@ -29,7 +29,7 @@ const Nav = ({openNav}:props) => {
     }, [])
     return (
     <div className={`fixed ${navBg ? 'bg-[#2d112f]' : "fixed"} h-[12vh] z-[10] w-full transition-all duration-200 `}>
-          <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto text-white font-extrabold '>
+          <div className='flex items-center h-full md:justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto text-white font-extrabold '>
               
               {/* LOGO */}
               <Image src="/images/logo.svg" alt="LOGO" width={350} height={50} className='ml-[-1.rem] sm:ml-0'/>
@@ -49,12 +49,12 @@ const Nav = ({openNav}:props) => {
                   {/* Button */}
                   <div className='flex items-center space-x-4'>
                       <button className='md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white
-                      hover:bg-gray-200 transition-all duration-200 rounded-lg'>
+                      hover:bg-gray-200 transition-all duration-200 rounded-lg '>
                           <Link href={"/Contact"}>Hire Me</Link>
                       </button>
                       {/* options */}
                       <HiBars3BottomRight onClick={openNav}
-                          className='w-8 h-8 cursor-pointer text-white lg:hidden' />
+                          className='w-8 h-8 cursor-pointer text-white lg:hidden'  />
                   </div>
                   
               </div>

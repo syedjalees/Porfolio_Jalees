@@ -25,49 +25,49 @@ export const projectData = [
     id: 1,
     image: "/images/p1.png",
     // url == vercel link
-    url: "#",
+    url: "https://giaic-portal-clone.vercel.app/",
   },
   {
     id: 2,
     image: "/images/p2.png",
     // url == vercel link
-    url: "#",
+    url: "https://hackathone-2-orpin.vercel.app/",
   },
   {
     id: 3,
     image: "/images/p3.png",
     // url == vercel link
-    url: "#",
+    url: "https://my-blog-henna-three.vercel.app/",
   },
   {
     id: 4,
     image: "/images/p4.png",
     // url == vercel link
-    url: "#",
+    url: "https://admin-dashboard-phi-teal-60.vercel.app/sign-in",
   },
   {
     id: 5,
     image: "/images/p5.png",
     // url == vercel link
-    url: "#",
+    url: "https://growthmindset-by-jalees.streamlit.app/",
   },
   {
     id: 6,
     image: "/images/p6.png",
     // url == vercel link
-    url: "#",
+    url: "https://tall-aliens-camp.loca.lt/",
   },
   {
     id: 7,
     image: "/images/p7.png",
     // url == vercel link
-    url: "#",
+    url: "https://porfolio-jalees.vercel.app/",
   },
   {
     id: 8,
     image: "/images/p8.png",
     // url == vercel link
-    url: "#",
+    url: "https://better-symbols-push.loca.lt/",
   },
 ];
 
