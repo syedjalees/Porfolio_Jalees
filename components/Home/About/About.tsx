@@ -1,7 +1,7 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
 import { aboutInfo } from "@/Data/data";
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaEllipsisH, FaSpinner } from "react-icons/fa";
 import Image from "next/image";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
           <p className="mt-6 text-base text-gray-500 ">
             {aboutInfo.description}
           </p>
-          <div className=" border-2  mt-10 md:mt-20  sm:flex   ">
+          <div className="mt-10 md:mt-20  sm:flex   ">
             <div className=" flex items-center space-x-2 mb-6 ">
               <div className=" w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
                 <FaCheck className="text-white " />
@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="flex items-center space-x-2 mb-6 ">
               <div className="w-7 h-7 bg-orange-800 flex flex-col items-center justify-center">
-                <FaCheck className="text-white " />
+                <FaSpinner className="text-white " />
               </div>
               <p className="text-xs sm:text-base md:text-lg font-bold text-gray-300">
                 Backend Development
@@ -36,7 +36,7 @@ const About = () => {
             </div>
             <div className="flex items-center space-x-2 mb-6 ">
               <div className="w-7 h-7 bg-green-800 flex flex-col items-center justify-center">
-                <FaCheck className="text-white " />
+                <FaSpinner className="text-white " />
               </div>
               <p className="text-xs sm:text-base md:text-lg font-bold text-gray-300">
                 Full Stack Development
