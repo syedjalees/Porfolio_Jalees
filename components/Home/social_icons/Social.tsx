@@ -31,7 +31,7 @@ export default function SocialMediaIcons() {
     // Full screen container
     <div className="  mt-10 lg:flex lg:justify-start">
       {/* Icons container - made responsive with flex-wrap */}
-      <div className=" flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-8">
+      <div className=" flex flex-wrap justify-center gap-3  sm:gap-4 md:gap-6 lg:gap-8">
         {icons.map((social, idx) => (
           <a key={idx} href={social.link} target="_blank" className={`group no-underline text-center ${social.color}`}>
             {/* ICON SIZE IS SET HERE - This div controls the size of each icon container */}
