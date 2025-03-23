@@ -16,8 +16,14 @@ const font = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Jalees Portfolio",
-  description: "This is my personal Portfolio, created by myself",
+  title: "Sayyed Jalees | Frontend Developer | Ui/Ux Designer | Portfolio",
+  description: "I'm a Frontend Developer and UI/UX Designer specializing in modern, responsive web experiences using Next.js, Tailwind CSS, and TypeScript.",
+  keywords:
+  "Frontend Developer, UI/UX Designer, Web Development, Next.js, Tailwind CSS, TypeScript, Digital Marketing, Digital Marketer , Canva Designer , Facebook Page Manager",
+  authors: [{ name: "Sayyed Jalees", url: "https://porfolio-jalees.vercel.app/" }],
+  icons:{
+    icon:{url:"/images/Hero.jpeg", type:"image/jpeg"}
+  }
 };
 
 export default function RootLayout({

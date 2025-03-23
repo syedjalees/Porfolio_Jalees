@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ContactForm = () => {
   return (
-    <div className="bg-[#2d112f] rounded-lg p-4 sm:p-10">
+    <div className="bg-[#2d112f] rounded-lg p-4 sm:p-10  ">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
         Let`s work together!
       </h1>
@@ -13,20 +13,25 @@ const ContactForm = () => {
         you as soon as possible.
       </p>
       {/* Input Fields */}
-      <form className="mt-8 block w-full overflow-hidden">
+      <form   
+      action="https://formspree.io/f/xldjbdjr"
+      method="POST" 
+      className="mt-8 block w-full overflow-hidden"
+      >
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <input
+            name="firstname"
             type="text"
             placeholder="First name"
-            required
+            
             className="flex-1 bg-black text-white
                    placeholder:text-gray-600 px-6 py-3 rounded-md border-[1.5px]
                    border-gray-200 border-opacity-15 outline-none w-full"
-          />
+                   required/>
           <input
+            name="lastname"
             type="text"
             placeholder="Last name"
-            required
             className="flex-1 bg-black text-white
                    placeholder:text-gray-600 px-6 py-3 rounded-md border-[1.5px]
                    border-gray-200 border-opacity-15 outline-none w-full"
@@ -34,6 +39,7 @@ const ContactForm = () => {
         </div>
         <div className="flex mt-5 flex-col md:flex-row items-center justify-between gap-4">
           <input
+            name="email"
             type="email"
             placeholder="Email address"
             required
@@ -41,44 +47,64 @@ const ContactForm = () => {
                    placeholder:text-gray-600 px-6 py-3 rounded-md border-[1.5px]
                    border-gray-200 border-opacity-15 outline-none w-full"
           />
+
+           
+
           <input
+            name="phoneNumber"
             type="text"
             placeholder="Phone number"
             className="flex-1 bg-black text-white
                    placeholder:text-gray-600 px-6 py-3 rounded-md border-[1.5px]
                    border-gray-200 border-opacity-15 outline-none w-full"
           />
+        
         </div>
         <div>
           <select
-            className="w-full mt-5 bg-black text-white placeholder:text-gray-600
-                  px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none"
-          >
+          name="service"
+          required
+          className="w-full mt-5 bg-black text-white placeholder:text-gray-600
+          px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none"
+          defaultValue="">
             <option
-              value="Select an Option"
+              value=""
               disabled
-              defaultValue={"option"}
-            ></option>
+              // defaultValue={"option"}
+            >Select an Option</option>
             <option value="frontend">Frontend Development</option>
             <option value="backend">Backend Development</option>
             <option value="fullstack">Fullstack Development</option>
           </select>
         </div>
+        <input
+            name="subject"
+            type="text"
+            placeholder="Subject"
+            className="flex-1 mt-5 bg-black text-white
+                   placeholder:text-gray-600 px-6 py-3 rounded-md border-[1.5px]
+                   border-gray-200 border-opacity-15 outline-none w-full"
+          required/>
         <textarea
-          className="w-full mt-5 bg-black text-white placeholder:text-gray-600
+        name="message"
+        className="w-full mt-5 bg-black text-white placeholder:text-gray-600
                   px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none"
-          rows={7}
-          placeholder="Message"
-        ></textarea>
-        <div className="mt-4">
-          <Link href="/Response">
+        rows={7}
+        placeholder="Message"
+        required
+        >
+
+        </textarea>
+        <div className="mt-4 flex justify-center">
+          {/* <Link href="/Response"> */}
             <button
-              className="px-8 py-3.5  text-white bg-black border-2 border-[#D04DAD] hover:bg-[#D04DAD]
+            type="submit"
+              className=" px-8 py-3.5  text-white bg-black border-2 border-[#D04DAD] hover:bg-[#D04DAD]
                   transition-all duration-150 rounded-full"
             >
               Send Message
             </button>
-          </Link>
+          {/* </Link> */}
         </div>
       </form>
     </div>

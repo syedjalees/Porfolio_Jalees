@@ -4,19 +4,27 @@ import { MdDescription } from "react-icons/md";
 
 export const BaseInfo = {
   name: "Sayyed Jalees ",
-  position: "Frontend Web Developer",
+  position: [
+    "Web Developer",
+    "Front-End Web Developer",
+    "UI/UX Designer",
+    // "Crypto Trader",
+    "Canva Designer",
+    "Digital Marketer",
+    "Facebook Page Manager"
+  ],
   description:
-    "I'm a frontend developer who loves building websites that look good and work smoothly. I use HTML, CSS, and JavaScript to create responsive and easy-to-use designs. I enjoy turning ideas into real websites and always learn new tools to improve my skills. Let's work together to create your perfect website!",
-  profilePic: "/images/Hero.jpg",
+    "I'm a passionate frontend developer skilled in HTML, CSS, TypeScript, and Next.js, now exploring Python for backend and AI. I create fast, secure, and user-friendly websites with a focus on great design and smooth performance. Always learning, always improving—let's build something amazing together!",
+  profilePic: "/images/Hero.jpeg",
 };
 
 export const aboutInfo = {
-  title: "Building Engaging Web Interfaces with Simplicity and Skill ",
+  title: "Designing, Developing & Marketing Digital Excellence",
   description:
-    "I'm a frontend developer focused on creating engaging and user-friendly websites. With expertise in HTML, CSS, and JavaScript by Using NextJs, I love building responsive designs that work seamlessly across all devices. I aim to deliver websites that are both visually appealing and easy to navigate, ensuring a great user experience. I’m passionate about staying up-to-date with the latest web technologies to keep my skills sharp and deliver the best results.",
+    "I'm a Frontend Web Developer and UI/UX Designer passionate about crafting smooth, modern, and user-friendly experiences. Skilled in HTML, CSS, Tailwind CSS, TypeScript, and Next.js, I build fast, responsive, and visually stunning websites. Beyond development, I specialize in Canva Design, Digital Marketing, and Facebook Page Management, helping brands shine with creative visuals and strategic marketing. Always evolving, always innovating—I bring ideas to life with precision and creativity. Let's build something impactful together!",
   client: "5",
-  experience: "3",
-  project: "3",
+  experience: "1.5",
+  project: "8",
   webiste: "5",
 };
 
@@ -25,7 +33,7 @@ export const projectData = [
     id: 1,
     image: "/images/p1.png",
     // url == vercel link
-    url: "https://giaic-portal-clone.vercel.app/",
+    url: "https://hackathon-02-new-eight.vercel.app/",
   },
   {
     id: 2,
@@ -118,14 +126,14 @@ export const skillsData = [
     id: 7,
     title: "Tailwind-CSS",
     image: "/images/tailwindcss-icon.svg",
-    percent: "60%",
+    percent: "70%",
   },
 
   {
     id: 8,
     title: "Python",
     image: "/images/python.svg",
-    percent: "50%",
+    percent: "80%",
   },
 
   {
@@ -145,5 +153,5 @@ export const skillsData = [
 export const contactData = {
   phone: "+92-333-2682636",
   email: "sayyedjalees958@gmail.com",
-  address: "Qasimabad Hyderbad",
+  address: "Karachi-Pakistan",
 };
