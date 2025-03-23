@@ -17,9 +17,9 @@ const About = () => {
           <p className="mt-6 text-base text-gray-500 ">
             {aboutInfo.description}
           </p>
-          <div className="mt-10 md:mt-20  flex   ">
-            <div className="flex items-center space-x-2 mb-6 ">
-              <div className="w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
+          <div className=" border-2  mt-10 md:mt-20  sm:flex   ">
+            <div className=" flex items-center space-x-2 mb-6 ">
+              <div className=" w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
                 <FaCheck className="text-white " />
               </div>
               <p className="text-xs sm:text-base md:text-lg font-bold  text-gray-300">
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
         {/* Start Content */}
-              <div className="grid grid-cols-2 gap-16 items-center lg:mx-auto">
+              <div className="grid grid-cols-2 gap-16 items-center  lg:mx-auto">
                   {/* 1st State */}
           <div>
             <Image

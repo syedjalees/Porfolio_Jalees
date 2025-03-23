@@ -10,7 +10,7 @@ import SocialMediaIcons from "../social_icons/Social";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[5vh] md:pt-[16vh] lg:pt-[15vh] h-screen md:h-auto bg-[#0f0f15] overflow-hidden relative md:pb-5">
+    <div className="w-full pt-[12.85vh]  sm:pt-[5vh] md:pt-[16vh] lg:pt-[15vh] h-screen md:h-auto bg-[#0f0f15] overflow-hidden relative md:pb-5">
       <div className=" flex justify-center flex-col w-4/5 h-full mx-auto ">
         <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-32 ">
           {/* Text Content  */}
@@ -25,7 +25,7 @@ const Hero = () => {
 
             {/* Animated Name */}
             <h1
-              className=" text-3xl md:text-5xl lg:text-5xl mb-5 font-extrabold text-transparent bg-clip-text 
+              className="text-3xl md:text-5xl lg:text-5xl mb-5 font-extrabold text-transparent bg-clip-text 
                bg-gradient-to-r from-[#ff6b6b] via-[#ffb400] to-[#47cf73] animate-gradient lg:w-[700px]"
             >
               <TypeAnimation

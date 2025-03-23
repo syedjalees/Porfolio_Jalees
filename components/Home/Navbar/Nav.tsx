@@ -33,14 +33,14 @@ const Nav = ({ openNav }: props) => {
         navBg ? "bg-[#2d112f]" : "fixed"
       } h-[12vh] z-[10] w-full transition-all duration-200 `}
     >
-      <div className="flex items-center h-full md:justify-between lg:justify-between  sm:w-[95%]   xl:w-[95%] mx-auto lg:mx-0 text-white font-extrabold ">
+      <div className="flex items-center h-full md:justify-between lg:justify-between sm:w-[95%]   xl:w-[95%] mx-auto lg:mx-0 text-white font-extrabold ">
         {/* LOGO */}
         <Image
           src="/images/logo.svg"
           alt="LOGO"
           width={250}
           height={50}
-          className="w-[300px] h:[400px] lg:h-[400px] lg:w-[400px] "
+          className="w-[270px] sm:w-[300px] sm:h:[350px] lg:h-[400px] lg:w-[400px] "
         />
 
         {/* NavLink */}
