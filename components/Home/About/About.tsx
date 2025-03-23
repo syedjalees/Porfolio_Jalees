@@ -1,7 +1,7 @@
 import SectionHeading from "@/components/Helper/SectionHeading";
 import { aboutInfo } from "@/Data/data";
 import React from "react";
-import { FaCheck, FaEllipsisH, FaSpinner } from "react-icons/fa";
+import { FaCheck, FaSpinner } from "react-icons/fa";
 import Image from "next/image";
 
 const About = () => {
