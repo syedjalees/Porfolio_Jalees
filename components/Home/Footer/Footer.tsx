@@ -9,7 +9,7 @@ const Footer = () => {
           <Image src={"/images/logo.svg"} alt='Jalees Personal Logo' width={380} height={50} className='mx-auto' />
           </div>
 
-          <div className='flex items-center flex-wrap justify-center space-x-5  md:space-x-10 font-3xl text-white font-bold '>
+          <div className='flex items-center flex-wrap justify-center space-x-3  md:space-x-10 font-3xl text-white font-bold '>
               <div><Link href="/">Home</Link></div>
               <div><Link href="/About">About</Link></div>
               <div><Link href="/Project">Projects</Link></div>

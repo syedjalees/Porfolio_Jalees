@@ -31,12 +31,12 @@ export default function SocialMediaIcons() {
     // Full screen container
     <div className="  mt-10 lg:flex lg:justify-start">
       {/* Icons container - made responsive with flex-wrap */}
-      <div className=" flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-8">
+      <div className=" flex flex-wrap justify-center gap-1.5  sm:gap-4 md:gap-6 lg:gap-8">
         {icons.map((social, idx) => (
           <a key={idx} href={social.link} target="_blank" className={`group no-underline text-center ${social.color}`}>
             {/* ICON SIZE IS SET HERE - This div controls the size of each icon container */}
             {/* Made responsive with different sizes for different screen sizes */}
-            <div className=" relative  w-[40px] h-[45px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] mx-auto transition-transform duration-300 group-hover:-rotate-[35deg] group-hover:skew-x-[20deg]">
+            <div className=" relative  w-[38px] h-[45px] sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px] mx-auto transition-transform duration-300 group-hover:-rotate-[35deg] group-hover:skew-x-[20deg]">
               {/* Layer 1 */}
               <span
                 className={`absolute inset-0 w-full h-full border rounded-lg transition-all duration-300 box-border bg-transparent ${social.border} opacity-0 group-hover:opacity-20 group-hover:translate-x-[6px] group-hover:-translate-y-[6px]`}
