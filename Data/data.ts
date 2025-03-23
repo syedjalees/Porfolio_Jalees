@@ -19,7 +19,7 @@ export const BaseInfo = {
 };
 
 export const aboutInfo = {
-  title: "Designing, Developing & Marketing Digital Excellence",
+  title: "Building the Digital World with Development, Design & Marketing",
   description:
     "I'm a Frontend Web Developer and UI/UX Designer passionate about crafting smooth, modern, and user-friendly experiences. Skilled in HTML, CSS, Tailwind CSS, TypeScript, and Next.js, I build fast, responsive, and visually stunning websites. Beyond development, I specialize in Canva Design, Digital Marketing, and Facebook Page Management, helping brands shine with creative visuals and strategic marketing. Always evolving, always innovating—I bring ideas to life with precision and creativity. Let's build something impactful together!",
   client: "5",
