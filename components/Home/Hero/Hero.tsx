@@ -10,13 +10,13 @@ import SocialMediaIcons from "../social_icons/Social";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[12.85vh]  sm:pt-[5vh] md:pt-[16vh] lg:pt-[15vh] h-full pb-5 sm:h-screen md:h-auto bg-[#0f0f15] overflow-hidden relative md:pb-5">
+    <div className="w-full pt-[12.85vh]  sm:pt-[5vh] md:pt-[16vh] lg:pt-[19vh] h-full pb-5 sm:h-screen md:h-auto bg-[#0f0f15] overflow-hidden relative md:pb-5">
       <div className=" flex justify-center flex-col w-[90%] h-full mx-auto ">
         <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-32 ">
           {/* Text Content  */}
           <div className="text-center md:text-center lg:text-left">
             {/* Sub heading */}
-            <h1 className="text-3xl md:text-5xl lg:text-5xl mb-5 text-gray-300 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            <h1 className="text-3xl md:text-5xl lg:text-4xl mb-5 text-gray-300 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
               Hello, I`m
             </h1>
             <h1 className="text-4xl md:text-5xl lg:text-5xl mb-5 text-white font-extrabold">
@@ -25,7 +25,7 @@ const Hero = () => {
 
             {/* Animated Name */}
             <h1
-              className="text-3xl md:text-5xl lg:text-5xl mb-5 font-extrabold text-transparent bg-clip-text 
+              className="text-3xl md:text-5xl lg:text-[4.5xl] mb-5 font-extrabold text-transparent bg-clip-text 
                bg-gradient-to-r from-[#ff6b6b] via-[#ffb400] to-[#47cf73] animate-gradient lg:w-[700px]"
             >
               <TypeAnimation
@@ -39,7 +39,7 @@ const Hero = () => {
             <ProfileImage />
 
             {/* Description */}
-            <p className="hidden md:hidden lg:block  mt-6 text-sm md:text-base text-white text-opacity-60">
+            <p className="hidden md:hidden lg:block  mt-6 text-sm md:text-base text-white text-opacity-70">
               {BaseInfo.description}
             </p>
 
@@ -61,12 +61,12 @@ const Hero = () => {
           </div>
 
           {/* Image content */}
-          <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-[#2d112f]  overflow-x-hidden ">
+          <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-[#2d112f] hover:border-white overflow-x-hidden ">
             <Image
               src={BaseInfo.profilePic}
               alt={BaseInfo.name}
-              width={350}
-              height={350}
+              width={330}
+              height={330}
             />
           </div>
         </div>

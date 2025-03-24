@@ -40,7 +40,7 @@ const Nav = ({ openNav }: props) => {
           alt="LOGO"
           width={250}
           height={50}
-          className="w-[270px] sm:w-[300px] sm:h:[350px] lg:h-[400px] lg:w-[400px] "
+          className="w-[270px] sm:w-[300px] sm:h:[350px] lg:h-[350px] lg:w-[350px] "
         />
 
         {/* NavLink */}
