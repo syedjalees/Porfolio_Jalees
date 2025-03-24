@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className='pt-16 pb-16 bg-[#050709] '>
       <SectionHeading>Contact Me</SectionHeading>
-          <div className='grid xl:grid-cols-2 w-[90%] sm:w-[80%] mx-auto items-center  md:gap-20 lg:gap-32 mt-10 lg:mt-20 '>
+          <div className='grid xl:grid-cols-2 w-[90%] sm:w-[80%] lg:w-[90%] mx-auto items-center  md:gap-20 lg:gap-32 mt-10 lg:mt-20 '>
               {/* Contact Form  */}
               <div>
                   <ContactForm />

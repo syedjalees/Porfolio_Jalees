@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="pt-16 pb-16 bg-[#050709]">
       <SectionHeading>About Me </SectionHeading>
-      <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-8 items-center mt-20 ">
+      <div className="w-[80%] lg:w-[90%] mx-auto grid lg:grid-cols-2 gap-8 items-center mt-20 ">
         {/* Text Content */}
         <div>
           <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
