@@ -6,7 +6,14 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      screens: {
+        '375': '375px',  // Custom breakpoint for 375px
+        '425': '425px',  // Custom breakpoint for 425px
+      },
+    },
+  },
   plugins: [],
 };
 export default config;

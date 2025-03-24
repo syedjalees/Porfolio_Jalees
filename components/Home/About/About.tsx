@@ -17,8 +17,8 @@ const About = () => {
           <p className="mt-6 text-base text-gray-500 ">
             {aboutInfo.description}
           </p>
-          <div className="mt-10 md:mt-20  sm:flex   ">
-            <div className=" flex items-center space-x-2 mb-6 ">
+          <div className=" mt-10 md:mt-20 gap-10 sm:flex   ">
+            <div className=" flex items-center space-x-4 mb-6 ">
               <div className=" w-7 h-7 bg-blue-800 flex flex-col items-center justify-center">
                 <FaCheck className="text-white " />
               </div>
@@ -26,7 +26,7 @@ const About = () => {
                 Frontend Development
               </p>
             </div>
-            <div className="flex items-center space-x-2 mb-6 ">
+            <div className="flex items-center space-x-4 mb-6 ">
               <div className="w-7 h-7 bg-orange-800 flex flex-col items-center justify-center">
                 <FaSpinner className="text-white " />
               </div>
@@ -34,7 +34,7 @@ const About = () => {
                 Backend Development
               </p>
             </div>
-            <div className="flex items-center space-x-2 mb-6 ">
+            <div className="flex items-center space-x-4 mb-6 ">
               <div className="w-7 h-7 bg-green-800 flex flex-col items-center justify-center">
                 <FaSpinner className="text-white " />
               </div>
