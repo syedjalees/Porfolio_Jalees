@@ -26,7 +26,7 @@ const Hero = () => {
             {/* Animated Name */}
             <h1
               className="text-3xl md:text-5xl lg:text-[4.5xl] mb-5 font-extrabold text-transparent bg-clip-text 
-               bg-gradient-to-r from-[#ff6b6b] via-[#ffb400] to-[#47cf73] animate-gradient lg:w-[700px]"
+               bg-gradient-to-r from-purple-400 via-[#b2944d]  to-pink-600 animate-gradient lg:w-[700px]"
             >
               <TypeAnimation
                 sequence={BaseInfo.position.flatMap((pos) => [pos, 1000])}
